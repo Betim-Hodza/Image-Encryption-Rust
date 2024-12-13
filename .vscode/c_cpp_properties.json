@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/homebrew/Cellar/opencv/4.10.0_15/include",
+                "/opt/homebrew/Cellar/opencv/4.10.0_15/lib",
+                "/opt/homebrew/Cellar/opencv/4.10.0_15/include/opencv4",
+                "/opt/homebrew/Cellar/cryptopp/8.9.0/include",
+                "/opt/homebrew/Cellar/cryptopp/8.9.0/lib"
+            ],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "intelliSenseMode": "${default}",
+            "compilerPath": "/usr/bin/clang++",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
