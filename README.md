@@ -1,8 +1,10 @@
 # Image Encryption System
 
-C++ project built to encrypt and decrypt images in C++ using RSA and AES
+Rust project built to encrypt and decrypt images using AES
 
 ## Dependencies
 
-* OpenCV
-* Crypto++
+* aes = "0.7"
+* block-modes = "0.8"
+* rand = "0.8"
+* anyhow = "1.0"
